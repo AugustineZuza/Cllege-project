@@ -87,6 +87,7 @@ if not MODEL_HAS_VARIATION:
 
 @app.route('/')
 def home():
+    
     """Home endpoint with API information"""
     return jsonify({
         "message": "Kasungu Agricultural Intelligence System API",
