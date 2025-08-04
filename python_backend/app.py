@@ -16,7 +16,8 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Path to your model file
-MODEL_PATH = os.path.join(os.path.dirname(__file__), 'multioutput3_linear_model.joblib')
+MODEL_PATH = os.path.join("python_backend", "multioutput3_linear_model.joblib")
+
 
 # OpenWeather API configuration
 OPENWEATHER_API_KEY = "b51cb434e01487ae9e1803a8b9ef73d5"  # Replace with your API key
